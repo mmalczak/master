@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="uml.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path826"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path844"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyDiamondLstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyDiamondLstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path938"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.8) translate(7,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyDiamondM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyDiamondM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path932"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="581.71031"
+     inkscape:cy="615.11611"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815"
+       width="145.4489"
+       height="159.20975"
+       x="38.486809"
+       y="72.493599" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="75.790146"
+       y="71.084625"
+       id="text819"><tspan
+         sodipodi:role="line"
+         id="tspan817"
+         x="75.790146"
+         y="71.084625"
+         style="font-size:3.52777767px;stroke-width:0.26458332">Server</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666667px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="74.501381"
+       y="86.458435"
+       id="text2317"><tspan
+         sodipodi:role="line"
+         id="tspan2315"
+         x="74.501381"
+         y="88.602661"
+         style="stroke-width:0.26458332;font-size:2.11666667px;" /></text>
+    <g
+       id="g2374"
+       transform="translate(16.063988,-1.7008929)">
+      <rect
+         y="76.235367"
+         x="71.227333"
+         height="24.922882"
+         width="39.021347"
+         id="rect2301"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.19999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text2307"
+         y="78.368149"
+         x="83.994751"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:2.11666656px;stroke-width:0.26458332"
+           y="78.368149"
+           x="83.994751"
+           id="tspan2305"
+           sodipodi:role="line">Oscilloscope</tspan></text>
+      <text
+         id="text2311"
+         y="81.246674"
+         x="72.646637"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:2.11666656px;stroke-width:0.26458332"
+           y="81.246674"
+           x="72.646637"
+           id="tspan2309"
+           sodipodi:role="line">- available_ADCs: dict</tspan><tspan
+           id="tspan2313"
+           style="font-size:2.11666656px;stroke-width:0.26458332"
+           y="84.068893"
+           x="72.646637"
+           sodipodi:role="line">- GUIs: list</tspan></text>
+      <text
+         id="text2321"
+         y="87.123917"
+         x="72.515381"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="87.123917"
+           x="72.515381"
+           id="tspan2319"
+           sodipodi:role="line">+ get_GUI(): GUI</tspan><tspan
+           id="tspan2323"
+           style="stroke-width:0.26458332"
+           y="89.240585"
+           x="72.515381"
+           sodipodi:role="line">+ get_available_ADC(): ADC</tspan><tspan
+           id="tspan2325"
+           style="stroke-width:0.26458332"
+           y="91.357246"
+           x="72.515381"
+           sodipodi:role="line">+ register_ADC: None</tspan><tspan
+           id="tspan2327"
+           style="stroke-width:0.26458332"
+           y="93.473915"
+           x="72.515381"
+           sodipodi:role="line">+ unregister_ADC: None</tspan><tspan
+           id="tspan2329"
+           style="stroke-width:0.26458332"
+           y="95.590584"
+           x="72.515381"
+           sodipodi:role="line">+ register_GUI: None</tspan><tspan
+           id="tspan2331"
+           style="stroke-width:0.26458332"
+           y="97.707253"
+           x="72.515381"
+           sodipodi:role="line">+ unregister_GUI: None</tspan><tspan
+           id="tspan2335"
+           style="stroke-width:0.26458332"
+           y="99.823914"
+           x="72.515381"
+           sodipodi:role="line">+ stop_acquisition_GUI: None</tspan><tspan
+           id="tspan2337"
+           style="stroke-width:0.26458332"
+           y="101.94058"
+           x="72.515381"
+           sodipodi:role="line" /><tspan
+           id="tspan2333"
+           style="stroke-width:0.26458332"
+           y="104.05725"
+           x="72.515381"
+           sodipodi:role="line" /></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path2339"
+         d="M 71.260736,79.203368 H 110.18006"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2339-3"
+         d="M 71.260769,84.709664 H 110.18003"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2376"
+       width="39.689526"
+       height="72.563675"
+       x="54.923889"
+       y="101.89324" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="70.826424"
+       y="104.02602"
+       id="text2380"><tspan
+         sodipodi:role="line"
+         id="tspan2378"
+         x="70.826424"
+         y="104.02602"
+         style="stroke-width:0.26458332">GUI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="56.92841"
+       y="107.63953"
+       id="text2384"><tspan
+         sodipodi:role="line"
+         id="tspan2382"
+         x="56.92841"
+         y="107.63953"
+         style="stroke-width:0.26458332">+ name: str</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="109.7562"
+         style="stroke-width:0.26458332"
+         id="tspan2386">- channels: dict</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="111.87286"
+         style="stroke-width:0.26458332"
+         id="tspan2388">- trigger: Trigger</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="113.98952"
+         style="stroke-width:0.26458332"
+         id="tspan2392">- ADCs_used: list</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="116.10619"
+         style="stroke-width:0.26458332"
+         id="tspan2390">- addr: str</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="118.22286"
+         style="stroke-width:0.26458332"
+         id="tspan2394">- port: int</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="120.33952"
+         style="stroke-width:0.26458332"
+         id="tspan2396">- run: bool</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="122.45619"
+         style="stroke-width:0.26458332"
+         id="tspan2398">- publisher: Publisher</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="56.92841"
+       y="126.88294"
+       id="text2402"><tspan
+         sodipodi:role="line"
+         id="tspan2400"
+         x="56.92841"
+         y="126.88294"
+         style="stroke-width:0.26458332">+ contains_ADC: bool</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="128.9996"
+         style="stroke-width:0.26458332"
+         id="tspan2404">+ add_channel: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="131.11627"
+         style="stroke-width:0.26458332"
+         id="tspan2406">+ add_trigger: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="133.23294"
+         style="stroke-width:0.26458332"
+         id="tspan2408">+remove_channel: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="135.34961"
+         style="stroke-width:0.26458332"
+         id="tspan2412">+ remove_trigger: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="137.46628"
+         style="stroke-width:0.26458332"
+         id="tspan2414">- update_ADCs_used: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="139.58295"
+         style="stroke-width:0.26458332"
+         id="tspan2416">- configure_acquisition_ADC: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="141.69962"
+         style="stroke-width:0.26458332"
+         id="tspan2420">- set_presamples_ADC: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="143.81627"
+         style="stroke-width:0.26458332"
+         id="tspan2422">- set_postsamples_ADC: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="145.93294"
+         style="stroke-width:0.26458332"
+         id="tspan2424">+set_presamples: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="148.04961"
+         style="stroke-width:0.26458332"
+         id="tspan2428">+ set_postsamples: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="150.16628"
+         style="stroke-width:0.26458332"
+         id="tspan2430">+run_acquisition: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="152.28294"
+         style="stroke-width:0.26458332"
+         id="tspan2434">+ configure_acquisition_ADCs_used:None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="154.39961"
+         style="stroke-width:0.26458332"
+         id="tspan2438">+ stop_acquisition_ADCs_used:None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="156.51628"
+         style="stroke-width:0.26458332"
+         id="tspan2440">+ check_ready_send_data: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="158.63293"
+         style="stroke-width:0.26458332"
+         id="tspan2426">- check_horizontal_settings: None</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="160.7496"
+         style="stroke-width:0.26458332"
+         id="tspan2448">+ get_horizontal_settings: dict</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="162.86627"
+         style="stroke-width:0.26458332"
+         id="tspan2450">+ get_channels: dict</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="164.98294"
+         style="stroke-width:0.26458332"
+         id="tspan2452">+ get_triggers: dict</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="167.09961"
+         style="stroke-width:0.26458332"
+         id="tspan2454">+ get_GUI_settings: dict</tspan><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="169.21628"
+         style="stroke-width:0.26458332"
+         id="tspan2418" /><tspan
+         sodipodi:role="line"
+         x="56.92841"
+         y="171.33295"
+         style="stroke-width:0.26458332"
+         id="tspan2410" /></text>
+  </g>
+</svg>
