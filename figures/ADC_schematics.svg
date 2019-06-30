@@ -90,6 +90,51 @@
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1697-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1695-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1697-3-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1695-6-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1697-3-5-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1695-6-3-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -98,17 +143,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="309.2962"
-     inkscape:cy="911.18218"
+     inkscape:zoom="2.8"
+     inkscape:cx="310.8111"
+     inkscape:cy="927.40712"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid926" />
+  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -240,105 +289,129 @@
        height="9.4880686"
        x="41.534225"
        y="43.075161" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect832"
+       width="44.3764"
+       height="45.253399"
+       x="84.640495"
+       y="39.791828" />
     <g
-       id="g1952"
-       transform="translate(0,-2.6971488)">
+       id="g1444"
+       transform="translate(0.33837032)">
       <rect
-         y="50.463669"
-         x="88.599846"
+         y="47.766521"
+         x="91.510262"
          height="16.06275"
          width="29.800001"
          id="rect815"
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.19999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="42.488976"
-         x="78.052086"
-         height="45.253399"
-         width="50.45982"
-         id="rect832"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
          id="text836"
-         y="54.093689"
-         x="101.14547"
+         y="51.396542"
+         x="104.05589"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="stroke-width:0.26458332"
-           y="54.093689"
-           x="101.14547"
+           y="51.396542"
+           x="104.05589"
            id="tspan834"
            sodipodi:role="line">ADC</tspan></text>
       <rect
-         y="72.502708"
-         x="88.759972"
+         y="69.805557"
+         x="91.670387"
          height="11.519167"
          width="29.800001"
          id="rect815-7"
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.19999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
          id="text836-5"
-         y="76.132668"
-         x="100.29377"
+         y="73.435516"
+         x="103.20419"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="stroke-width:0.26458332"
-           y="76.132668"
-           x="100.29377"
+           y="73.435516"
+           x="103.20419"
            id="tspan834-3"
            sodipodi:role="line">WRTD</tspan></text>
       <text
          id="text836-56"
-         y="46.454117"
-         x="95.438034"
+         y="43.756969"
+         x="98.34845"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="stroke-width:0.26458332"
-           y="46.454117"
-           x="95.438034"
+           y="43.756969"
+           x="98.34845"
            id="tspan834-2"
            sodipodi:role="line">DevicesAccess</tspan></text>
       <text
          id="text1134"
-         y="79.474968"
-         x="89.742188"
+         y="76.777817"
+         x="92.652603"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="stroke-width:0.26458332"
-           y="79.474968"
-           x="89.742188"
+           y="76.777817"
+           x="92.652603"
            id="tspan1132"
            sodipodi:role="line">- add/remove rules</tspan><tspan
            id="tspan1138"
            style="stroke-width:0.26458332"
-           y="81.591637"
-           x="89.742188"
+           y="78.894485"
+           x="92.652603"
            sodipodi:role="line">- configure rules</tspan></text>
       <text
          id="text1134-1"
-         y="57.157349"
-         x="89.742188"
+         y="54.460201"
+         x="92.652603"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="stroke-width:0.26458332"
-           y="57.157349"
-           x="89.742188"
+           y="54.460201"
+           x="92.652603"
            id="tspan1132-8"
            sodipodi:role="line">- start/stop acquisition</tspan><tspan
            id="tspan1138-7"
            style="stroke-width:0.26458332"
-           y="59.274014"
-           x="89.742188"
+           y="56.576866"
+           x="92.652603"
            sodipodi:role="line">- configure parameters</tspan><tspan
            id="tspan1163"
            style="stroke-width:0.26458332"
-           y="61.390682"
-           x="89.742188"
+           y="58.693535"
+           x="92.652603"
            sodipodi:role="line">- retrieve data</tspan><tspan
            id="tspan1165"
            style="stroke-width:0.26458332"
-           y="63.507347"
-           x="89.742188"
+           y="60.8102"
+           x="92.652603"
            sodipodi:role="line">- retrieve configuration</tspan></text>
+    </g>
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1697)"
+       d="M 84.7,47.819195 H 73.46"
+       id="path928"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1697-3)"
+       d="M 84.7,62.418526 H 73.46"
+       id="path928-7"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g1409"
+       transform="matrix(-1,0,0,1,157.77173,0.51932776)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path928-7-5"
+         d="M 84.7,75.218526 H 73.46"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1697-3-5)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path928-7-5-9"
+         d="m 73.071727,77.778525 h 11.24"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1697-3-5-6)" />
     </g>
   </g>
 </svg>
