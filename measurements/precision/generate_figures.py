@@ -25,8 +25,11 @@ def save_histogram(data, name):
 meas_path = '/home/milosz/Projects/master/measurements/precision/'
 save_path = '/home/milosz/Projects/master/figures/measurements/'
 
-for file in os.listdir(meas_path):
-    if file.endswith('.txt'):
-        data = read_data(meas_path + file)
-        save_histogram(data, file.replace('.txt', ''))
+#for file in os.listdir(meas_path):
+#    if file.endswith('.txt'):
+#        data = read_data(meas_path + file)
+#        save_histogram(data, file.replace('.txt', ''))
+file = 'WRTD_other_day.txt'
+data = read_data(meas_path + file)
+save_histogram(data, file.replace('.txt', ''))
 
