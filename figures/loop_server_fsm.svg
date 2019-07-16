@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="loop_server.svg">
+   sodipodi:docname="loop_server_fsm.svg">
   <defs
      id="defs2">
     <marker
@@ -131,8 +131,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="297.47908"
-     inkscape:cy="812.68773"
+     inkscape:cx="269.75571"
+     inkscape:cy="693.16323"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -291,7 +291,7 @@
          id="tspan871-7">Data received</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1506)"
-       d="M 52.271474,116.87167 C 40.038708,107.2568 39.88767,98.852337 52.115123,91.392294"
+       d="M 52.280465,116.73938 C 44.094173,107.12451 43.993097,98.720046 52.175833,91.260003"
        id="path8664"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -324,18 +324,18 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.26458332">Send data to GUI</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:0;font-family:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:serif;font-stretch:normal;font-variant:normal;"
-       x="37.808956"
-       y="103.98646"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="41.281612"
+       y="103.85416"
        id="text10292-5"><tspan
          sodipodi:role="line"
-         x="37.808956"
-         y="103.98646"
-         style="stroke-width:0.26458332;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         x="41.281612"
+         y="103.85416"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.26458332"
          id="tspan10316">no</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.20000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1506-2)"
-       d="M 88.264999,143.06542 C 116.05712,113.99118 116.40027,88.577069 88.620219,66.018752"
+       d="M 88.276777,143.06542 C 108.62594,113.99118 108.87719,88.577069 88.536866,66.018752"
        id="path8664-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
