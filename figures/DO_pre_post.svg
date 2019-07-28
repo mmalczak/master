@@ -304,9 +304,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="451.57159"
-     inkscape:cy="265.73288"
+     inkscape:zoom="2"
+     inkscape:cx="419.76646"
+     inkscape:cy="264.65007"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -338,7 +338,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -467,7 +467,7 @@
          id="tspan916-6"
          x="50.206455"
          y="187.78445"
-         style="font-size:3.52777767px;fill:#000000;fill-opacity:1;stroke-width:0.21496069">presamples</tspan></text>
+         style="font-size:3.52777767px;fill:#000000;fill-opacity:1;stroke-width:0.21496069">pre-samples</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1385)"
        d="m 76.963516,177.67286 c 24.901034,0 24.901034,0 24.901034,0"
@@ -484,7 +484,7 @@
          x="75.468964"
          y="187.58594"
          style="font-size:3.52777767px;fill:#000000;fill-opacity:1;stroke-width:0.21496069"
-         id="tspan1435">postsamples</tspan></text>
+         id="tspan1435">post-samples</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.25, 0.25;stroke-dashoffset:0;stroke-opacity:1"
        d="m 76.963516,154.29574 v 23.32295"
@@ -506,7 +506,7 @@
          id="tspan916-6-6"
          x="57.778553"
          y="214.41098"
-         style="font-size:3.52777767px;fill:#000000;fill-opacity:1;stroke-width:0.21496069">presamples</tspan></text>
+         style="font-size:3.52777767px;fill:#000000;fill-opacity:1;stroke-width:0.21496069">pre-samples</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.25, 0.25;stroke-dashoffset:0;stroke-opacity:1"
        d="m 120.82751,154.29574 v 52.37844"
@@ -577,7 +577,7 @@
          x="112.87105"
          y="211.26741"
          style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan1284">postsamples</tspan></text>
+         id="tspan1284">post-samples</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1505-3);enable-background:new"
        d="M 120.82753,207.04166 H 102.24"
