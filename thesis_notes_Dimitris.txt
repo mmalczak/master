@@ -1,0 +1,125 @@
+* General remarks
+- Letter size
+- PDF properties
+- date/year on title page
+- purpose on title page
+- do not put commas at the end of items in bullet lists
+- communicate the <x> -> communication between the <x>
+- nodes are not "communicated with each other", they "communicate with each other"
+- One figure is a schematic, not "schematics". Also, schematic is rarely used. Instead, we use
+  "(block) diagram", "map", "figure",...
+- LXI, not "the LXI" (but still, "the LXI standard" because "the" refers in this case to the
+  "standard")
+- I miss a "vision", a description of the final use scenario, which would explain also the name of
+  the project: you open the program, you see a list of signals that you can connect to your scope,
+  you select the trigger source (external or one of the channels), put in acquisition parameters and
+  you get the signals on your screen, perfectly corelated, even though they are kilometers away.
+
+* 1
+- no text
+** 1.1
+- power grids are not scientific installations
+- missing link between installations and ACQ
+- you do not explain Fig1.1
+- Fig1.1 might be wrong. At least it's not clear, cause I see no "problem".
+- distributed data -> distributed signals
+- OASIS Anastasiya
+  + better talk about trigger distribution in OASIS, not OASIS in total
+  + FGCs, digital sources
+  + cannot trigger bidirectionaly
+  + OASIS and WRTD in near future
+- LXI does not belong to this list, as it is, it is not a large-scale distributed system
+  + even then, you should be talking about the extended functions of LXI, not the whole standard
+- So, why WRTD is not on the list?
+- I would actually skip the list completely here and discuss in general about the shortcomings, leaving
+  the presentation to the next chapter.
+- specialised crates?
+- it is not mentioned anywhere that this is a proof of concept, a demonstrator
+** 1.2
+- what timestamps?!?
+** 1.3
+- things falling out of the sky, example PMU
+
+* 2
+- do not start by restating 1
+- LXI is not a system
+** 2.1
+- you start by describing IVI, not LXI
+** 2.2
+- what are the LHC instabilities, why LIST was needed?
+
+* 3
+- Fix the title
+- I think you should rewrite it, it almost does not make sense
+** 3.1
+- Do not call it Sync.Eth.
+- 3.1.2 feels a bit short, maybe remove both 3.1.1 and 3.1.2 and say a few things about what WR
+  provides without trying to explain how
+** 3.2
+- do we care about the state machine of the ADC gw?
+** 3.3
+- 3.3.2: what 125MHz clock? schematics? anticipated devices? I think you should rewrite it
+- 3.3.3: do we care about the API of WRTD? Why don't you present the API of python-zeroconf as well?
+- 3.3.4: fixed font for code. Do we care about code examples? I1, O1 is the first channel
+- 3.3.5: MockTurtle framework falls out of the sky. Do we care about WRTD implementation and soft-CPUs?
+** 3.4
+- You are supposed to be presenting what you used to solve your problem. Instead you present other
+  things as well.
+- How did you decide to use RPC for communication? What other alternatives did you consider?
+- 3.4.1: Other solutions apart from central unit approach? why did you choose it? zeroconf = LXI.
+- 3.4.2: zeroMQ falls out of the sky
+- 3.4.3: At this section level I was expecting to read about enumeration, communication,
+  readout. This looks like it should be 3.4.2.1.
+- 3.4.4: Same as above.
+- So what do we use for communication and data retrieval? I finished section 3.4 and I could not answer that.
+
+* 4
+- This is a good chapter introduction!
+** 4.1
+  - discuss the limitation of ADC buffer size
+** 4.2
+  - why the ADC app needs to be light?
+** 4.3
+  - this list does not match the list in 3.4
+  - 4.3.1: why make the DO compatible with LXI?
+  - 4.3.2: RPC, not "the RPC" (but, "the RPC server"). Nested RPC calls? Why was the statement wrong?
+  - 4.3.3: RPC calls = Remote Procedure Call calls
+  - 4.3.3: we already know that RPC is not used for new device detection and acquisitions
+* 5
+** 5.1
+- in Figure 5.1, the GUI is not hardware, and the server is not present
+** 5.2
+- the "telling a story" style does fit better in a report, not a thesis
+- the "i designed without a plan first" does not reflect well on you
+- why async messages allow for optimisation?
+- dictionaries, what dictionaries? I know nothing about dictionaries :)
+** 5.3
+- 5.3.2: don't be apologetic about the intuitiveness. It is intuitive and the instructions can fit
+  in a single A4 page, including pictures.
+- 5.3.2: how does the general architecture affect the functionality of the GUI?
+- 5.3.2: Figure 5.5 is not referenced anywhere, you point instead to Fig 5.6 which is for the ADC.
+- 5.3.4: don't "teach" ("the most important elements...")
+** 5.5
+- Do you feel you need to justify the development time of DO? If not, don't. Always prefer to be
+  positive.
+** 5.6
+- There it is again! WTF is a PMU? You make it sound like it is the most natural application of DO.
+- 5.6.1: you do not reference fig 5.10, instead you double ref 5.9
+- It is a bit late here when you clearly state what you used. Perhaps you should do it earlier and
+  hint/point to the measurement results presented here.
+- 5.6.2: and -> end, subsection -> Section
+- in all plots/figures, post-samples -> number of samples
+** 5.7
+- Also WR itself is not calibrated
+- WR is 1ns accurate, not precise
+
+* Overall impression
+If I were your professor (which I'm not), I wouldn't be satisfied with this document. Reading
+through it I got two main impressions:
+  1. That you did not want to write it. You rush through explanations, you choose some random topics
+     that you expand (to fill pages), others that you do not expand at all.
+  2. That you perhaps never read it yourself, beginning to end, word after word, pausing to think
+     what you just read and whether it makes sense.
+All in all, it feels like a document written out of obligation, not because you wanted to explain to
+others what you did. As such, it believe that it does not respect the reader.
+
