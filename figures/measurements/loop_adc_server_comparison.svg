@@ -38,11 +38,11 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-height="1145"
      id="namedview1078"
      showgrid="false"
      inkscape:zoom="1.920573"
-     inkscape:cx="292.27126"
+     inkscape:cx="195.94584"
      inkscape:cy="182.78337"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -2432,7 +2432,7 @@
        id="tspan1887"
        style="font-size:10px;white-space:pre;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
        x="220.36591"
-       y="168.12607">post-samples</tspan></text>
+       y="168.12607">samples</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
@@ -2443,5 +2443,5 @@
        id="tspan1887-6"
        style="font-size:10px;white-space:pre;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
        x="220.36591"
-       y="340.33997">post-samples</tspan></text>
+       y="340.33997">samples</tspan></text>
 </svg>
