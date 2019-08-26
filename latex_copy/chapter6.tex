@@ -1,0 +1,77 @@
+\chapter{Conclusion and future work}
+
+The Distributed Oscilloscope is an outcome of the work done by the author of this thesis in collaboration with Hardware and Timing section, Controls group, Beams department at CERN.
+
+The DO consists of various applications (section \ref{section:do_components}), which together allow monitoring the signals from various digitisers, located far away from each other. In order to perform the measurements, the digitisers used during the development are installed in the same PC. However, in order to simulate the distance between them, the devices are synchronised over a 2.5~km optical fibre (section \ref{section:hardware_setup}). 
+
+The DO uses the WRTD project for synchronisation of devices, distribution of timestamps and triggering devices based on the value of timestamps received from other devices (section \ref{section:WRTD}). The precision of the synchronisation, calculated as 3$\sigma$ value of normal distribution fitted to the measurements of the synchronisation accuracy (section \ref{section:precision_measurements}), is equal to 10 ns, which is better than the assumed precision: $\pm (T_s + 1~ns = 11~ns)$ \footnote{The frequency of the sampling clock is 100 Mhz. Therefore the sampling period ($T_s$) is equal to 10 ns}, subject to the mean variation caveat mentioned in section \ref{section:precision_measurements}.
+
+The DO project is available as a Python module, published on the OHWR page \cite{distributed_oscilloscope} together with the documentation, which provides the details on installation and usage. In order to provide a user-friendly interface a GUI application was written (section \ref{section:do_gui_app}). It allows configuration of devices and displaying the acquired data. All the synchronisation details are implemented in the Server (section \ref{section:do_server_app}) and in the ADC application (section \ref{section:do_gui_app}), and are hidden from the user. 
+
+Development of the DO allowed to identify and solve a lot of WRTD issues before its first release (section \ref{section:wrtd_issues}).
+
+Based on the presented results, the goal (section \ref{section:goal}) of the thesis has been achieved, meeting the above mentioned requirements.
+
+
+\section{Contributions made in this thesis}
+The DO uses a variety of projects which are currently internal to CERN or which are published in Open Hardware Repository (OHWR) \cite{ohwr}. The list of contributions made by the author in this thesis is presented below:
+\begin{itemize}
+    \item Development of the following applications of the Distributed Oscilloscope:
+        \begin{itemize}
+            \item Distributed Oscilloscope Server (section \ref{section:do_server_app})
+            \item Distributed Oscilloscope GUI (section \ref{section:do_gui_app})
+            \item Distributed Oscilloscope ADC (section \ref{section:do_adc_app})
+            \item Distributed Oscilloscope Test-bench (section \ref{section:do_testbench_app})
+        \end{itemize}
+    \item Implementation of Python wrappers for C libraries (section \ref{section:do_adc_app})
+    \item Investigation of various design aspects of the distributed system:
+        \begin{itemize}
+            \item General architecture (section \ref{section:general_architecture})
+            \item Communication (section \ref{section:communication}):
+                \begin{itemize}
+                    \item Enumeration of devices (section \ref{section:enumeration_of_devices})
+                    \item Control of run-time behaviour of nodes:
+                        \begin{itemize}
+                            \item Selection of the method (section \ref{section:run_time_beh})
+                            \item Comparison of various RPC libraries and implementation of custom RPC (section \ref{section:rpc_selection})
+                        \end{itemize}
+                    \item Transmission of acquired data and notifications \ref{section:transmission_data_notifications})
+                \end{itemize}
+            \item Threads management (section \ref{section:threads_management})
+        \end{itemize}
+    \item Building the hardware setup (section \ref{section:hardware_setup})
+    \item Debugging WRTD and solving minor issues (section \ref{section:wrtd_issues})
+    \item Optimisation of the acquisition speed:
+        \begin{itemize}
+            \item Optimisation of the data transport (section \ref{section:acquisition_speed_optimisation})
+            \item Optimisation of the acquisition loop (section \ref{section:acquisition_loop_opt})
+        \end{itemize}
+    \item Performing measurements of the precision of the DO (section \ref{section:precision_measurements})
+\end{itemize}
+
+
+\section{Future work}
+The following list presents the scope for further work:
+\begin{itemize}
+
+    \item Improving the precision of data synchronisation
+    
+    Currently, the greatest source of synchronisation errors is the fact, that the acquisition clock is not locked to the timestamping clock. What is more, these clocks have different frequencies. However, it is possible to exchange the ADC chip in FMC-ADC board (section \ref{section:fmc_adc}), to the one that would work with the same frequency as the timestamping clock. After this change, the HDL design would have to be modified, to lock the acquisition clock to timestamping clock. The expected precision after these changes is  $\pm~1~ns$.
+    \item Improving the time stability of the accuracy of data synchronisation
+    
+    The mean value variations in time, presented in section \ref{section:precision_measurements} should be investigated. The source of this variations should be eliminated.
+    \item Adding support for different types of devices
+    
+    Currently, the only available device that could be connected in the DO is the FMC-ADC board (section \ref{section:fmc_adc}). In the future, support for different ADCs, as well as different types of devices should be added.
+    \item Adding different types of User Applications
+    
+    Currently, there are two User Applications available: GUI and test-bench. In the future, depending on users requirements, other applications could be added. 
+    
+    \item Heart-beating
+    
+    Heart-beating, described in section \ref{section:rpc_selection}, could be implemented in order to reliably detect the disconnection of a device.
+\end{itemize}
+
+\vfill % otherwise Latex tries to fill up all the page
+
+%check the UML diagram                                                       

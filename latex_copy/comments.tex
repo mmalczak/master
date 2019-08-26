@@ -1,0 +1,44 @@
+Chapter 3:
+
+WR section:
+add a figure of WR topology, make sure how to cite it and prove that You have the permissions
+
+PTP section:
+cite correctly the figure --- You saw it in many places, which of the articles should I cite, the original one, or any of them?
+
+SPEC:
+should I be more precise about the components?
+
+
+FMC gateware, how to cite
+
+WRTD:
+implementation - maybe more details?
+
+Communication:
+zeroconf - the last part about the implementation of the zeroconf in DO should go to the next chapter
+
+Maybe group the software somehow, but it could be difficult to separate it completely
+
+
+MHz with space or without
+
+The table \ref{tab:server:oscilloscope_model} presents three layer, hierarchical model of the system
+It contains the following hierarchical model of the system, built from three layers, presented in the table \ref{tab:server:oscilloscope_model}:
+\begin{table}
+\centering
+\caption{Implemented and foreseen applications forming part of the DO}
+\begin{tabular}{ccc}
+Users & Central unit  & Devices \\
+\hline
+GUI & Server & ADC \\
+\textcolor{gray}{PMU} &   & \textcolor{gray}{TDC} \\
+ &  & \textcolor{gray}{FD} \\
+\end{tabular}
+\begin{tablenotes}
+  \item The gray elements are not implemented.
+  \end{tablenotes}
+\label{tab:server:oscilloscope_model}
+\end{table}
+
+Maybe replace the name GUI with the User and ADC with the Device to make it more generic and have the possibility of adding the PMU.

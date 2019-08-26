@@ -1,0 +1,25 @@
+\begin{lstlisting}[language=Python, 
+                   caption = Examples code for ZMQRPC server., 
+                   label=cap:zmqrpc_server]
+def run(self):                                                                 
+    context = zmq.Context()                                                    
+    socket = context.socket(zmq.ROUTER)                                        
+    server_ip = get_ip()                                                       
+    socket.bind("tcp://" + server_ip  + ":8003")                               
+    poller = zmq.Poller()                                                      
+    poller.register(socket, zmq.POLLIN | zmq.POLLERR)                          
+                                                                               
+    while True:                                                                
+        socks = dict(poller.poll())                                            
+        if socket in socks:                                                    
+            [identity, message] = socket.recv_multipart()                      
+            message = pickle.loads(message)                                    
+            try:                                                               
+                func = getattr(self, message[0])                               
+                ret = func(*message[1:])                                       
+                ret = pickle.dumps(ret)                                        
+                socket.send_multipart([identity, ret])                         
+            except AttributeError:                                             
+                socket.send_multipart([identity, b"Error"]) 
+\end{lstlisting}
+

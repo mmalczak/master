@@ -1,0 +1,52 @@
+\begin{table}
+\centering
+\caption{List of the functions from the WRTD API}
+\begin{tabular}{cc}
+Type of function & Name of the function \\
+\hline
+\hline
+\multirow{5}{*}{General} 
+& wrtd\_init \\                                                                
+& wrtd\_close \\                                                                  
+& wrtd\_reset \\ 
+& wrtd\_get\_sys\_time \\                                                      
+& wrtd\_reset\_rule\_stats \\   
+\hline
+\multirow{2}{*}{Error handling} 
+& wrtd\_get\_error \\                                                             
+& wrtd\_error\_message \\  
+\hline
+\multirow{2}{*}{Logs management} 
+& wrtd\_log\_read \\                                                           
+& wrtd\_clear\_log \\ 
+\hline
+\multirow{5}{*}{Rules management} 
+& wrtd\_add\_rule \\                                                           
+& wrtd\_disable\_all\_rules \\                                                    
+& wrtd\_remove\_rule \\                                                           
+& wrtd\_remove\_all\_rules \\                                                     
+& wrtd\_get\_rule\_id \\  
+\hline
+\multirow{5}{*}{Alarms management} 
+& wrtd\_add\_alarm \\                                                          
+& wrtd\_disable\_all\_alarms \\                                                
+& wrtd\_remove\_alarm \\                                                       
+& wrtd\_remove\_all\_alarms \\                                                 
+& wrtd\_get\_alarm\_id \\ 
+\hline
+\multirow{5}{*}{Attributes setters} 
+& wrtd\_set\_attr\_int32 \\                                                    
+& wrtd\_set\_attr\_int64 \\                                                    
+& wrtd\_set\_attr\_bool \\                                                     
+& wrtd\_set\_attr\_tstamp \\                                                   
+& wrtd\_set\_attr\_string \\   
+\hline
+\multirow{5}{*}{Attributes getters} 
+& wrtd\_get\_attr\_int32 \\                                                       
+& wrtd\_get\_attr\_int64 \\                                                    
+& wrtd\_get\_attr\_bool \\                                                        
+& wrtd\_get\_attr\_tstamp \\                                                      
+& wrtd\_get\_attr\_string \\   
+\end{tabular}
+\label{tab:wrtd_api}
+\end{table}

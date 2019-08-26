@@ -1,0 +1,20 @@
+\begin{lstlisting}[language=Python, 
+                   caption = Examples code for XMLRPC server., 
+                   label=cap:xmlrpc_server]
+def run(self):    
+    _ServerSelector = selectors.PollSelector                                   
+    try:                                                                       
+        with _ServerSelector() as selector:                                    
+            selector.register(serv_expose.server, selectors.EVENT_READ)        
+                                                                               
+            while True:                                                        
+                ready = selector.select(0.5)                                   
+                if ready:                                                      
+                    serv_expose.server._handle_request_noblock()               
+                                                                               
+                serv_expose.server.service_actions()                           
+    finally:                                                                   
+        pass 
+
+
+\end{lstlisting}
